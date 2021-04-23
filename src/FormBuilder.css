@@ -1,0 +1,13 @@
+.form-builder__wrapper {
+    display: flex;
+    padding: 30px;
+}
+
+.form-builder__left-menu {
+    flex: 1;
+}
+
+.form-builder__content {
+    flex: 3;
+    padding: 15px;
+}
