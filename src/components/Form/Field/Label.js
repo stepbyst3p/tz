@@ -1,6 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-import "./Form.css";
+import "./Field.css";
 
 const Label = props => {
     const { text, inputId } = props;
@@ -9,6 +10,11 @@ const Label = props => {
             {text}
         </label>
     );
+};
+
+Label.propTypes = {
+    text: PropTypes.string,
+    inputId: PropTypes.string
 };
 
 export default React.memo(Label);

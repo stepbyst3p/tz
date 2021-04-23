@@ -5,9 +5,11 @@
 
 .form-builder__left-menu {
     flex: 1;
+    padding: 15px 30px;
+    border-right: 1px solid #333;
 }
 
 .form-builder__content {
-    flex: 3;
-    padding: 15px;
+    flex: 4;
+    padding: 15px 30px;
 }

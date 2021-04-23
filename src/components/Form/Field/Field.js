@@ -1,9 +1,10 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import Label from "./Label";
 import Input from "./Input";
 
-const FieldGroup = props => {
+const Field = props => {
     const { field, handleInputChange } = props;
 
     return (
@@ -14,4 +15,9 @@ const FieldGroup = props => {
     );
 };
 
-export default React.memo(FieldGroup);
+Field.propTypes = {
+    field: PropTypes.object,
+    handleInputChange: PropTypes.func
+};
+
+export default React.memo(Field);

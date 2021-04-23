@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Input = props => {
     const { field, onChange } = props;
@@ -11,6 +12,11 @@ const Input = props => {
         autoFocus: true,
         onChange: e => onChange(e)
     });
+};
+
+Input.propTypes = {
+    field: PropTypes.object,
+    onChange: PropTypes.func
 };
 
 export default React.memo(Input);

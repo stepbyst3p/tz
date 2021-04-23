@@ -1,5 +1,6 @@
 .form-output__wrapper {
     white-space: pre-line;
+    border-top: 1px solid #333;
 }
 
 .form-output__item {

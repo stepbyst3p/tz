@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { nanoid } from "nanoid";
 import findLastIndex from "lodash/findLastIndex";
 
-import FieldTypes from "./FieldTypes/FieldTypes";
-import Form from "./Form/Form";
-import FormOutput from "./FormOutput/FormOutput";
-import defaultFields from "./defaultFields";
+import defaultFields from "../data/defaultFields";
+import FieldTypes from "./FieldTypes";
+import Form from "./Form";
+import FormOutput from "./FormOutput";
 
 import "./FormBuilder.css";
 

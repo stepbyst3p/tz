@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import FormBuilder from "./FormBuilder";
+import FormBuilder from "./components/FormBuilder";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

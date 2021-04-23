@@ -9,6 +9,7 @@ const FormOutput = props => {
 
     return (
         <div className="form-output__wrapper">
+            <h2>Form output</h2>
             {fields.length
                 ? fields.map(field => <FormOutputItem item={field} key={field.id} />)
                 : "Output will be rendered here"}

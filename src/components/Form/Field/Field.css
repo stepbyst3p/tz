@@ -1,9 +1,3 @@
-.form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 60px;
-}
-
 .field__group {
     display: flex;
     flex-direction: column;

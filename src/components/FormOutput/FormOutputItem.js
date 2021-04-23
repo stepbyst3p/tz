@@ -18,10 +18,4 @@ FormOutputItem.propTypes = {
     item: PropTypes.object
 };
 
-// const areEqual = (prevProps, nextProps) => {
-//     console.log(prevProps.item.value, nextProps.item.value);
-//     return prevProps.item.value === nextProps.item.value;
-// };
-
-// export default React.memo(FormOutputItem, areEqual);
 export default FormOutputItem;
