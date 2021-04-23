@@ -2,14 +2,3 @@
     white-space: pre-line;
     border-top: 1px solid #333;
 }
-
-.form-output__item {
-    display: flex;
-    white-space: pre-line;
-    margin-bottom: 30px;
-}
-
-.form-output__item__title {
-    margin-right: 10px;
-    color: #a3a3a3;
-}

@@ -1,0 +1,10 @@
+.form-output__item {
+    display: flex;
+    white-space: pre-line;
+    margin-bottom: 30px;
+}
+
+.form-output__item-title {
+    margin-right: 10px;
+    color: #a3a3a3;
+}

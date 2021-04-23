@@ -5,6 +5,7 @@ import "./Field.css";
 
 const Label = props => {
     const { text, inputId } = props;
+
     return (
         <label className="field__label" htmlFor={inputId}>
             {text}
